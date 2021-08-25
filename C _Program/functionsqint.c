@@ -1,0 +1,14 @@
+//wap to create a function square with one int parameter to accept a number and calculate and display the square of that no
+ void square(int num1)
+ {
+ 	int square;
+ 	square=num1*num1;
+ 	printf("\n square of a no =%d",square);
+ }
+ int main()
+ {
+ 	int n1=2;
+ 	square(n1);
+ 	printf("\n bye from main function");
+ 	
+ }
