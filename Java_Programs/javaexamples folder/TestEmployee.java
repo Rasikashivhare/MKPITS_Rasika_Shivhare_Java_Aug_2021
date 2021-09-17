@@ -1,29 +1,20 @@
-//maintaining records of employees.
-
-
-class Employee{
-int id;
-String name;
-float salary;
-void insert(int i, String n, float s) {
-id=i;
-name=n;
-salary=s;
-}
-void display(){System.out.println(id+" "+name+" "+salary);}
-}
-public class TestEmployee 
+import mkpits1.Employee;
+import java.util.*;
+class TestEmployee {
+public static void main(String[] arg)
 {
-public static void main(String[] args) {
-Employee e1=new Employee();
-Employee e2=new Employee();
-Employee e3=new Employee();
-e1.insert(101,"ajeet",45000);
-e2.insert(102,"irfan",25000);
-e3.insert(103,"nakul",55000);
-e1.display();
+Employee r1=new Employee();
+Scanner scan=new Scanner(System.in);
+System.out.println("enter empno");
+int empno=scan.nextInt();
+System.out.println("enter empname");
+String empname=scan.next();
+System.out.println("enter basic salary");
+int basicsalary=scan.nextInt();
+r1.insert(empno,empname,basicsalary);
 
-e2.display();
-e3.display();
+r1.calculateBonus();
+r1.display();
 }
+
 }
