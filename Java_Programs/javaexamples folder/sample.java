@@ -1,4 +1,5 @@
 
+
 import java.sql.*;
 public class sample {
     public static void main(String[] arg){
@@ -9,9 +10,10 @@ public class sample {
                     con=DriverManager.getConnection("jdbc:mysql://localhost:3306/mkpits123","root","");
                     System.out.println("successfully connected");
             Statement stmt=con.createStatement();
-            String qr="update students set course_name='html' where student_id=1 ";
+            String qr="insert into students(student_name,course_name) values('maninder','java')";
             stmt.executeUpdate(qr);
-            System.out.println("record updated successfully");
+            System.out.println("record saved successfully");
+
         }catch(Exception ee){
             System.out.println(ee.toString());
         }
