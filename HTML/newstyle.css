@@ -1,11 +1,28 @@
-<html>
-<head>
+div.ram
+{
+background-color: blanchedalmond;
+}
+height: 150px;
+width: 150px;
+float:left;
+margin: 20px;
+border:brown solid;
+}
 
-<link href ="newstyle.css" ref="stylesheet">
-</head>
+div#first
+{
+background=color:Red;
+}
+div#sec
+{
+background=color:yellow;
+}
+div#third
+{
+background=color:black;
+}
+div#fourth
+{
+background=color:blue;
+}
 
-<p> hello</p>
-<p>hi</p>
-<body>
-</body>
-</html

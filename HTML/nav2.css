@@ -1,0 +1,28 @@
+ul{
+margin:0px;
+padding:0px;
+height:37px;
+line-height:37px;
+background-color:black;
+font-family:'Courier New', Courier,monospace;
+font-size:15px;
+}
+
+li{
+float:left;
+padding:0px 28px;
+border-right:1px rgb(255,0,85) solid;
+}
+
+a{
+color:white;
+}
+
+a:hover
+{
+background-color:turquoise;
+}
+.home a {
+background-color:turquoise;
+}
+

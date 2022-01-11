@@ -8,3 +8,21 @@ float:left;
 margin: 20px;
 border:brown solid;
 }
+
+div#first
+{
+background=color:Red;
+}
+div#sec
+{
+background=color:yellow;
+}
+div#third
+{
+background=color:black;
+}
+div#fourth
+{
+background=color:blue;
+}
+
