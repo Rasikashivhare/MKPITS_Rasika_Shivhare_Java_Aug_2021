@@ -1,0 +1,35 @@
+ul{
+margin:0px;
+padding:0px;
+height:37px;
+line-height:37px;
+background-color:yellow;
+font-family:'Courier New', Courier,monospace;
+font-size:15px;
+}
+
+div#first{
+background-color:red;
+}
+div#third{
+background-color:skyblue;
+}
+
+li{
+float:left;
+padding:0px 28px;
+border-right:1px rgb(255,0,85) solid;
+}
+
+a{
+color:red;
+}
+
+a:hover
+{
+background-color:yellow;
+}
+.home a {
+background-color:yellow;
+}
+
