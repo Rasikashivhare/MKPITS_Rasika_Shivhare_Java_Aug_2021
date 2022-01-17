@@ -1,0 +1,260 @@
+<html>
+
+<head>
+    <style>
+        .flip-box {
+            background-color: transparent;
+            width: 32%;
+            height: 300px;
+            border: 2px solid;
+            perspective: 1000px;
+            float: left;
+            margin: 2px;
+        }
+
+        .flip-box-inner {
+            position: relative;
+            width: 100%;
+            height: 100%;
+            text-align: center;
+            transition: transform 0.8s;
+            transform-style: preserve-3d;
+        }
+
+        .flip-box:hover .flip-box-inner {
+            transform: rotateY(180deg);
+        }
+
+        .flip-box-front,
+        .flip-box-back {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
+        }
+
+        .flip-box-back {
+            background-color: lightgrey;
+            color: black;
+            transform: rotateY(180deg);
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="row">
+        <div class="flip-box">
+            <div class="flip-box-inner">
+                <div class="flip-box-front">
+                    <img src="https://www.deccanherald.com/sites/dh/files/articleimages/2021/01/23/xiaomi-mi-10i-cov-shot-sel-1-940243-1611400139.jpg"
+                        alt="MI">
+                </div>
+                <div class="flip-box-back">
+                    <h2>MOBILE INFORMATION</h2>
+                    <table align="center">
+                        <tr>
+                            <td>Brand Name : </td>
+                            <td>MI</td>
+                        </tr>
+                        <tr>
+                            <td>Model : </td>
+                            <td>Mi 10i</td>
+                        </tr>
+                        <tr>
+                            <td>RAM : </td>
+                            <td>4 GB</td>
+                        </tr>
+                        <tr>
+                            <td>ROM : </td>
+                            <td>64 GB</td>
+                        </tr>
+                        <tr>
+                            <td>Processor : </td>
+                            <td>Snapdragon 810</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="flip-box">
+            <div class="flip-box-inner">
+                <div class="flip-box-front">
+                    <img src="https://static.toiimg.com/thumb/msid-73704247,width-1200,height-900,resizemode-4/.jpg"
+                        alt="Realme">
+                </div>
+                <div class="flip-box-back">
+                    <h2>MOBILE INFORMATION</h2>
+                    <table align="center">
+                        <tr>
+                            <td>Brand Name : </td>
+                            <td>Realme</td>
+                        </tr>
+                        <tr>
+                            <td>Model : </td>
+                            <td>Realme 7</td>
+                        </tr>
+                        <tr>
+                            <td>RAM : </td>
+                            <td>4 GB</td>
+                        </tr>
+                        <tr>
+                            <td>ROM : </td>
+                            <td>64 GB</td>
+                        </tr>
+                        <tr>
+                            <td>Processor : </td>
+                            <td>Snapdragon 750</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-box">
+            <div class="flip-box-inner">
+                <div class="flip-box-front">
+                    <img src="https://5.imimg.com/data5/SELLER/Default/2020/12/WI/VR/VK/118676901/oppo-f17-pro-mobile-500x500.jpg"
+                        alt="Oppo">
+                </div>
+                <div class="flip-box-back">
+                    <h2>MOBILE INFORMATION</h2>
+                    <table align="center">
+                        <tr>
+                            <td>Brand Name : </td>
+                            <td>OPPO</td>
+                        </tr>
+                        <tr>
+                            <td>Model : </td>
+                            <td>F15</td>
+                        </tr>
+                        <tr>
+                            <td>RAM : </td>
+                            <td>8 GB</td>
+                        </tr>
+                        <tr>
+                            <td>ROM : </td>
+                            <td>128 GB</td>
+                        </tr>
+                        <tr>
+                            <td>Processor : </td>
+                            <td>Snapdragon 810</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-box">
+            <div class="flip-box-inner">
+                <div class="flip-box-front">
+                    <img src="https://cdn.pocket-lint.com/r/s/1200x/assets/images/154302-phones-review-iphone-12-pro-review-product-shots-image3-wd487ybwpf.jpg"
+                        alt="IPhone">
+                </div>
+                <div class="flip-box-back">
+                    <h2>MOBILE INFORMATION</h2>
+                    <table align="center">
+                        <tr>
+                            <td>Brand Name : </td>
+                            <td>IPhone</td>
+                        </tr>
+                        <tr>
+                            <td>Model : </td>
+                            <td>Iphone 12 Pro</td>
+                        </tr>
+                        <tr>
+                            <td>RAM : </td>
+                            <td>8 GB</td>
+                        </tr>
+                        <tr>
+                            <td>ROM : </td>
+                            <td>256 GB</td>
+                        </tr>
+                        <tr>
+                            <td>Processor : </td>
+                            <td>Snapdragon 950</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-box">
+            <div class="flip-box-inner">
+                <div class="flip-box-front">
+                    <img src="https://www.zdnet.com/a/img/resize/756020c04d15eb821223881989a927b43ffa3eff/2020/08/06/c9fd8633-1524-4bfc-8e85-e9586c43b731/galaxy-note-20-ultra-2-copy.jpg?width=1200&fit=bounds&auto=webp"
+                        alt="Samsung">
+                </div>
+                <div class="flip-box-back">
+                    <h2>MOBILE INFORMATION</h2>
+                    <table align="center">
+                        <tr>
+                            <td>Brand Name : </td>
+                            <td>Samsung</td>
+                        </tr>
+                        <tr>
+                            <td>Model : </td>
+                            <td>Galaxy 10</td>
+                        </tr>
+                        <tr>
+                            <td>RAM : </td>
+                            <td>12 GB</td>
+                        </tr>
+                        <tr>
+                            <td>ROM : </td>
+                            <td>256 GB</td>
+                        </tr>
+                        <tr>
+                            <td>Processor : </td>
+                            <td>Snapdragon 950</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+        <div class="flip-box">
+            <div class="flip-box-inner">
+                <div class="flip-box-front">
+                    <img src="https://static.toiimg.com/thumb/resizemode-4,msid-81662754,imgsize-38245,width-720/81662754.jpg"
+                        alt="OnePlus">
+                </div>
+                <div class="flip-box-back">
+                    <h2>MOBILE INFORMATION</h2>
+                    <table align="center">
+                        <tr>
+                            <td>Brand Name : </td>
+                            <td>Oneplus</td>
+                        </tr>
+                        <tr>
+                            <td>Model : </td>
+                            <td>Oneplus 9R</td>
+                        </tr>
+                        <tr>
+                            <td>RAM : </td>
+                            <td>8 GB</td>
+                        </tr>
+                        <tr>
+                            <td>ROM : </td>
+                            <td>128 GB</td>
+                        </tr>
+                        <tr>
+                            <td>Processor : </td>
+                            <td>Snapdragon 780</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
